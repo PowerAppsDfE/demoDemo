@@ -90,11 +90,10 @@ HomePage As screen:
 
     Label6 As label:
         FontWeight: =FontWeight.Bold
-        Height: =146
+        Height: =117
         Size: =20
         Text: ="NEW CHANGE"
-        Width: =802
-        X: =564
+        Width: =1366
         Y: =548
         ZIndex: =11
 
