@@ -1,0 +1,33 @@
+topMenuBarDfeWorkforceChangeRequest As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =110
+    Width: =1366
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(39, 113, 194, 1)
+        Width: =Parent.Width
+        ZIndex: =1
+
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="DfE Workforce Change Request"
+        Width: =Parent.Width * 0.5
+        X: =Parent.Width * 0.1
+        Y: =40
+        ZIndex: =2
+
+    Rectangle2 As rectangle:
+        Fill: =Color.Black
+        Height: =10
+        Width: =Parent.Width * 0.8
+        X: =Parent.Width * 0.1
+        Y: =Rectangle1.Y + Rectangle1.Height
+        ZIndex: =3
+

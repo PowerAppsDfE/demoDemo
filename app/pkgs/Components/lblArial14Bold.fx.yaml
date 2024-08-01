@@ -1,0 +1,16 @@
+lblArial14Bold As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =40
+    Width: =100
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Label2 As label:
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Size: =14
+        Text: ="Edit Text"
+        Width: =100
+        ZIndex: =1
+

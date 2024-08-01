@@ -1,0 +1,14 @@
+Screen3 As screen:
+
+    topMenuBarDfeWorkforceChangeRequest_3 As topMenuBarDfeWorkforceChangeRequest:
+
+    lblArial14Bold_2 As lblArial14Bold:
+        X: =232
+        Y: =192
+        ZIndex: =2
+
+    lblArial14GreyFill_2 As lblArial14GreyFill:
+        X: =138
+        Y: =315
+        ZIndex: =3
+

@@ -1,0 +1,42 @@
+[
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 5,
+    "LibraryId": "7f2bdbd7-dff9-4ec6-988b-a348f2880467",
+    "LibraryLogicalName": "cr7bd_reusablecomponentsfordfeapps_3f88d",
+    "LibraryVersion": "2024-06-13T09:27:46Z",
+    "OriginalComponentDefinitionTemplateId": "b7a00f23ef9c4388ac8a8bbc1055edc7",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2024-06-13T09:27:48.063+00:00"
+  },
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 2,
+    "LibraryId": "7f2bdbd7-dff9-4ec6-988b-a348f2880467",
+    "LibraryLogicalName": "cr7bd_reusablecomponentsfordfeapps_3f88d",
+    "LibraryVersion": "2024-06-13T09:27:46Z",
+    "OriginalComponentDefinitionTemplateId": "6e385427d4b44a769f994df2bd02ccc3",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2024-06-13T09:27:48.063+00:00"
+  },
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 1,
+    "LibraryId": "7f2bdbd7-dff9-4ec6-988b-a348f2880467",
+    "LibraryLogicalName": "cr7bd_reusablecomponentsfordfeapps_3f88d",
+    "LibraryVersion": "2024-06-13T09:27:46Z",
+    "OriginalComponentDefinitionTemplateId": "70626f1916f149ecb96cc8cf850448a5",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2024-06-13T09:27:48.063+00:00"
+  },
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 2,
+    "LibraryId": "7f2bdbd7-dff9-4ec6-988b-a348f2880467",
+    "LibraryLogicalName": "cr7bd_reusablecomponentsfordfeapps_3f88d",
+    "LibraryVersion": "2024-06-13T09:27:46Z",
+    "OriginalComponentDefinitionTemplateId": "b2bf94126ed749a1a2887c6c644e8a47",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2024-06-13T09:27:48.063+00:00"
+  }
+]

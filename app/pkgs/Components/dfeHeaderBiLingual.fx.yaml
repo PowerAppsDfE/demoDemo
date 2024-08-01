@@ -1,0 +1,43 @@
+dfeHeaderBiLingual As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =110
+    Width: |-
+        =If(ScreenSize.ExtraLarge, 1200,
+        ScreenSize.Large, 1100,
+        ScreenSize.Medium, 800,
+        ScreenSize.Small, 500)
+    X: =0
+    Y: =0
+    ZIndex: =3
+
+    Image3 As image:
+        Image: =Dfe_BiLingual_Horiz_small
+        Width: =320
+        X: =10
+        ZIndex: =1
+
+    Label4_1 As label:
+        Align: =Align.Center
+        Color: =Color.DarkBlue
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =24
+        Text: ="EDIT TEXT"
+        Width: =560
+        X: =330
+        Y: =15
+        ZIndex: =2
+
+    Icon1 As icon.HorizontalLine:
+        BorderColor: =Color.DarkBlue
+        Color: =Color.DarkBlue
+        Fill: =Color.DarkBlue
+        FocusedBorderColor: =Self.Color
+        Height: =10
+        Icon: =Icon.HorizontalLine
+        Width: =dfeHeaderBiLingual.Width * 0.8
+        X: =dfeHeaderBiLingual.Width * 0.1
+        Y: =(dfeHeaderBiLingual.Y + dfeHeaderBiLingual.Height) - Self.Height
+        ZIndex: =3
+

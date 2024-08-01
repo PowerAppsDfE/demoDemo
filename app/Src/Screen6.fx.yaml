@@ -1,0 +1,6 @@
+Screen6 As screen:
+
+    dfeHeaderBiLingual_1 As dfeHeaderBiLingual:
+        Width: =Screen6.Width
+        ZIndex: =1
+

@@ -1,0 +1,90 @@
+HomePage As screen:
+    Width: |-
+        =Max(App.Width)
+        //,
+        //App.MinScreenWidth)
+
+    lblHomePageTopBanner As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =25
+        Text: ="DfE Workforce Change Request"
+        Width: =600
+        X: =HomePage.Width * 0.1
+        ZIndex: =2
+
+    rectHomePageTopBannerBottom As rectangle:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =10
+        Width: =HomePage.Width * 0.8
+        X: =HomePage.Width * 0.1
+        ZIndex: =3
+
+    lblHomePageName As label:
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Size: =14
+        Text: |-
+            ="Name:"
+        Width: =80
+        X: =HomePage.Width * 0.1
+        Y: =rectHomePageTopBannerBottom.Y + rectHomePageTopBannerBottom.Height
+        ZIndex: =4
+
+    lblHomePageUserName As label:
+        Font: =Font.Arial
+        Size: =14
+        Text: =User().FullName
+        X: =lblHomePageName.X + lblHomePageName.Width
+        Y: =lblHomePageName.Y
+        ZIndex: =5
+
+    lblHomePageEmail As label:
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Size: =14
+        Text: |-
+            ="Email:"
+        Width: =80
+        X: =HomePage.Width * 0.1
+        Y: =lblHomePageName.Y + lblHomePageName.Height
+        ZIndex: =6
+
+    Label5 As label:
+        Font: =Font.Arial
+        Size: =14
+        Text: =User().Email
+        Width: =300
+        X: =lblHomePageEmail.X + lblHomePageEmail.Width
+        Y: =lblHomePageEmail.Y
+        ZIndex: =7
+
+    Label8 As label:
+        Font: =Font.Arial
+        Size: =14
+        Text: =Office365Users.MyProfile().MailNickname
+        X: =763
+        Y: =110
+        ZIndex: =8
+
+    Label9 As label:
+        Font: =Font.Arial
+        FontWeight: =FontWeight.Bold
+        Size: =14
+        Text: |-
+            ="Payroll:"
+        Width: =80
+        X: =HomePage.Width * 0.5
+        Y: =110
+        ZIndex: =9
+
+    dfeHeaderBiLingual_2 As dfeHeaderBiLingual:
+        Width: |-
+            =If(ScreenSize.ExtraLarge, HomePage.Width,
+            ScreenSize.Large, 1100,
+            ScreenSize.Medium, 800,
+            ScreenSize.Small, 500)
+        Y: =282
+        ZIndex: =10
+

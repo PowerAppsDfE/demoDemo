@@ -1,0 +1,16 @@
+lblArial14GreyFill As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =40
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =2
+
+    Label3 As label:
+        Fill: =Color.LightGray
+        Font: =Font.Arial
+        Size: =14
+        Text: ="Edit Text"
+        Width: =Parent.Width
+        ZIndex: =1
+

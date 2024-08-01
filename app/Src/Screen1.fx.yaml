@@ -1,0 +1,8 @@
+Screen1 As screen:
+
+    topMenuBarDfeWorkforceChangeRequest_1 As topMenuBarDfeWorkforceChangeRequest:
+
+    lblArial14Bold_1 As lblArial14Bold:
+        Height: =132
+        ZIndex: =2
+
