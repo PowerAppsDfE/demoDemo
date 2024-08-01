@@ -27,7 +27,7 @@ HomePage As screen:
         Size: =14
         Text: |-
             ="Name Edit In Git:"
-        Width: =80
+        Width: =230
         X: =HomePage.Width * 0.1
         Y: =rectHomePageTopBannerBottom.Y + rectHomePageTopBannerBottom.Height
         ZIndex: =4
