@@ -92,8 +92,8 @@ HomePage As screen:
         FontWeight: =FontWeight.Bold
         Height: =117
         Size: =20
-        Text: ="NEW CHANGE showing change"
+        Text: ="NEW CHANGE delete"
         Width: =1366
-        Y: =548
+        Y: =558
         ZIndex: =11
 
